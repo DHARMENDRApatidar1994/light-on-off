@@ -88,3 +88,50 @@ nav .nav-right button{
     margin: 0.5vmax 0vmax;
     line-height: 1.7vmax;
 }
+
+@media(max-width:600px) {
+     nav h3{
+        font-size: 2vmax;
+    }
+    nav .nav-left{
+        width: 65%;
+        margin-top: 2vmax;
+    }
+    nav .nav-right{
+        width: 15%;
+        flex-direction: column;
+    }
+    nav .nav-right button{
+        width: 6vmax;
+        height: 3vmax;
+        }
+    .nav-right span{
+        font-size: 2vmax;  
+    }
+    .image{
+        flex-direction: column;
+    }
+    .image .image-left img{
+        width: 90%;
+        height: 35vmax;
+        transform: translateX(0.7vmax);
+        margin-top: -4.9vmax;
+    }
+    .image .matter-right{
+        width: 90%;
+        transform: translateY(0vmax);
+        margin-left: 2.5vmax;
+    }
+    .matter-right button{
+        padding: 0.7vmax 1vmax;
+        font-size: 2vmax;
+    }
+    .matter-right h1{
+        font-size: 5vmax;
+        margin: 1vmax 0vmax;
+    }
+    .matter-right p{
+        line-height: 2.5vmax;
+        font-size: 2vmax;
+    }  
+}
